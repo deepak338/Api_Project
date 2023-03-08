@@ -3,9 +3,10 @@ import os
 from twilio.rest import Client
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/weather"  # end point
-app_key = 'b35d5b022bffa533d164e188fc9292af'
-account_sid = os.environ['ACa2c4bc8caea033bca9035b03c892dabd']
-auth_token = os.environ['d770153925326a261819e71ce17139f6']
+app_key = 'you_api_key'
+account_sid = os.environ['TWILIO_ACCOUNT_SID']
+auth_token = os.environ['TWILIO_AUTH_TOKEN']
+
 weather_parameter = {
     "lat": 22.572645,
     "lon": 88.363892,
