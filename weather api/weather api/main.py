@@ -27,7 +27,7 @@ if int(weather_condition)<700:
         .create(
         body="you should get your umbrella ,it going to rain, have a  day(if you did not forget to get your umbralle)",
         from_='+15017122661',
-        to='+918340667756'
+        to='your_verified_number'
     )
     print(message.status)
 
